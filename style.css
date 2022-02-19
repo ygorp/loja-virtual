@@ -39,3 +39,31 @@ body {
   height: 30px;
   margin-right: 20px;
 }
+
+.loja-virtual {
+  background-color: #2b261e;
+}
+
+.loja-virtual h1 {
+  color: #009fdc;
+  margin-top: 80px;
+  margin-left: 120px;
+  font-size: 50px;
+}
+
+.loja-virtual button {
+  margin-top: 200px;
+  margin-left: 190px;
+  margin-bottom: 50px;
+  padding: 20px;
+  border: 0;
+  background-color: #ffffff;
+  color: #2b261e;
+  border-radius: 4px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.loja-virtual button:hover {
+  transform: scale(1.1);
+}
