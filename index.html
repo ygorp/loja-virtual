@@ -17,11 +17,10 @@
 </head>
 <body>
   <header class="menu">
-    <img class="logo" src="/img/Logo.jpeg" alt="">
+    <img class="logo" src="/img/Logo.png" alt="">
 
     <div class="menu-item">
-      <a href="">Serviços</a>
-      <a href="">Acessórios</a>
+      <a href="#servicos">Serviços</a>
       <a href="">Orçamento</a>
     </div>
 
@@ -36,6 +35,42 @@
       <h1>Visite nossa loja  virtual</h1>
 
       <button>Acesse a loja</button>
+    </div>
+
+    <section id="servicos" class="servicos">
+      <h1>Serviços</h1>
+
+      <p>Troca de tela</p>
+      <p>Troca de bateria</p>
+      <p>Troca de conector de carga</p>
+      <p>Software</p>
+      <p>Formatação</p>
+      <p>Reparo de placa Android e Iphone</p>
+    </section>
+
+    <div class="orcamento">
+      <h1>Orçamento</h1>
+      <form method="post">
+        <h3>Digite o modelo do seu aparelho:</h3>
+        <input type="text" name="modelo" id="modelo">
+
+        <h3>Defeito</h3>
+        <input type="checkbox" name="tela" id="tela"> Tela
+        <input type="checkbox" name="bateria" id="bateria"> Bateria
+        <input type="checkbox" name="conector" id="conector"> Conector
+        <input type="checkbox" name="software" id="software"> Software
+        <input type="checkbox" name="formatacao" id="formatacao"> Formatação
+        <input type="checkbox" name="placa" id="placa"> Placa
+
+        <h3>Digite seu email:</h3>
+        <input type="email" name="email" id="email">
+
+        <h3>Digite seu telefone</h3>
+        <input type="tel" name="telefone" id="telefone">
+      </form>
+
+      <button type="reset">Limpar</button>
+      <button type="submit">Enviar</button>
     </div>
   </main>
 </body>
