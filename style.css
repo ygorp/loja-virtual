@@ -22,8 +22,8 @@ html {
 }
 
 .logo {
-  width: 220px;
-  height: 150px;
+  width: 170px;
+  height: 90px;
 }
 
 .menu-item a{
@@ -98,6 +98,7 @@ html {
 
 .orcamento form {
   display: flex;
+  align-items: center;
   flex-direction: column;
 }
 
@@ -111,4 +112,22 @@ html {
 
 .orcamento h3 {
   color: #2b261e;
+  font-size: 25px;
 }
+
+.escrever {
+  width: 350px;
+  height: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #2b261e;
+  border-radius: 4px;
+}
+
+.descricao {
+  width: 390px;
+  height: 150px;
+  border: 1px solid #2b261e;
+  border-radius: 4px;
+}
+
