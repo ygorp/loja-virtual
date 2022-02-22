@@ -24,7 +24,7 @@ html {
 
 .logo {
   width: 150px;
-  height: 50px;
+  height: 80px;
 }
 
 .menu-item a{
@@ -46,7 +46,12 @@ html {
 }
 
 .loja-virtual {
-  background-color: #2b261e;
+  background: #2b261e;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .loja-virtual h1 {
@@ -58,9 +63,9 @@ html {
 }
 
 .loja-virtual button {
-  margin-top: 200px;
+  margin-top: 250px;
   margin-left: 190px;
-  margin-bottom: 80px;
+  margin-bottom: 100px;
   padding: 20px;
   border: 0;
   background-color: #ffffff;
@@ -101,7 +106,12 @@ html {
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: #2b261e;
+  background: #2b261e;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .orcamento h1 {
