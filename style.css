@@ -18,12 +18,13 @@ html {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  margin-top: 20px;
+  margin-top: 15px;
+  margin-bottom: 25px;
 }
 
 .logo {
-  width: 170px;
-  height: 90px;
+  width: 150px;
+  height: 50px;
 }
 
 .menu-item a{
@@ -31,7 +32,7 @@ html {
   font-size: 25px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-weight: 400;
-  padding: 15px;
+  margin-left: 30px;
 }
 
 .menu-item a:hover {
@@ -50,7 +51,6 @@ html {
 
 .loja-virtual h1 {
   color: #009fdc;
-  margin-top: 80px;
   margin-left: 120px;
   padding-top: 50px;
   font-size: 50px;
@@ -90,6 +90,7 @@ html {
 
 .servicos p {
   margin-top: 40px;
+  margin-bottom: 25px;
   color: #2b261e;
   font-size: 30px;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -100,10 +101,12 @@ html {
   display: flex;
   align-items: center;
   flex-direction: column;
+  background-color: #2b261e;
 }
 
 .orcamento h1 {
   margin-top: 50px;
+  margin-bottom: 30px;
   color: #009fdc;
   font-size: 70px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -111,7 +114,7 @@ html {
 }
 
 .orcamento h3 {
-  color: #2b261e;
+  color: #ffffff;
   font-size: 25px;
 }
 
@@ -129,5 +132,26 @@ html {
   height: 150px;
   border: 1px solid #2b261e;
   border-radius: 4px;
+  margin-bottom: 25px;
 }
 
+.orcamento  button {
+  margin-bottom: 25px;
+  padding: 10px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #009fdc;
+  color: #2b261e;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.rodape {
+  padding: 15px;
+  color: #2b261e;
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
