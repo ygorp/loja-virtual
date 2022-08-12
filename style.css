@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Rubik+Marker+Hatch&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -13,37 +14,20 @@ html {
   scroll-behavior: smooth;
 }
 
-.menu {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  margin-top: 15px;
-  margin-bottom: 25px;
+.nav-wrapper {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-.logo {
-  width: 150px;
-  height: 80px;
+.brand-logo {
+  font-family: 'Rubik Marker Hatch', cursive;
+  font-weight: 500;
 }
 
-.menu-item a{
-  color: #009fdc;
-  font-size: 25px;
-  text-transform: uppercase;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-weight: 400;
-  margin-left: 30px;
-}
-
-.menu-item a:hover {
-  color: #2b261e;
-}
-
-.icons img {
-  width: 40px;
-  height: 30px;
-  margin-right: 20px;
+.menu-link {
+  font-family: 'Rubik Marker Hatch', cursive;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .loja-virtual {
@@ -56,11 +40,12 @@ html {
 }
 
 .loja-virtual h1 {
-  color: #009fdc;
+  color: #ffffff;
   margin-left: 120px;
   padding-top: 50px;
   font-size: 50px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
 }
 
 .loja-virtual button {
@@ -71,6 +56,8 @@ html {
   border: 0;
   background-color: #ffffff;
   color: #2b261e;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
   border-radius: 4px;
   font-size: 20px;
   cursor: pointer;
