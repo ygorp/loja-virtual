@@ -15,10 +15,6 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
     <title>Homecell</title>
 
     <link rel="stylesheet" href="style.css" />
@@ -43,24 +39,22 @@
     <link rel="manifest" href="/site.webmanifest" />
   </head>
   <body>
-    <nav class="nav-extended">
-      <div class="nav-wrapper blue darken-4">
-        <a href="#" class="brand-logo">Homecell</a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"
-          ><i class="material-icons">clear_all</i></a
-        >
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a class="menu-link" href="sass.html">Serviços</a></li>
-          <li><a class="menu-link" href="badges.html">Produtos</a></li>
-          <li><a class="menu-link" href="collapsible.html">Contatos</a></li>
+    <nav class="nav-wraper blue darken-4">
+      <div class="container">
+        <a id="logo" href="#" class="brand-logo">Homecell</a>
+        <a id="logo" href="#" class="sidenav-trigger" data-target="mobile-links">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a id="menu-link" href="#">Serviços</a></li>
+          <li><a id="menu-link" href="#">Contatos</a></li>
         </ul>
       </div>
     </nav>
 
-    <ul class="sidenav" id="mobile-demo">
-      <li><a href="sass.html">Serviços</a></li>
-      <li><a href="badges.html">Produtos</a></li>
-      <li><a href="collapsible.html">Contatos</a></li>
+    <ul class="sidenav" id="mobile-links">
+      <li><a href="#">Serviços</a></li>
+      <li><a href="#">Contatos</a></li>
     </ul>
 
     <main class="principal">
@@ -79,7 +73,7 @@
       <h2 class="center blue-text darken-4">Serviços</h2>
       <div class="row">
         <div class="col s12 m3">
-          <div class="card">
+          <div class="card hoverable">
             <div class="card-image">
               <img
                 src="https://www.igeeks.com.br/wp-content/uploads/2019/10/troca-de-tela-de-iphone-x-cuidados-tratada.jpg"
@@ -97,7 +91,7 @@
         </div>
 
         <div class="col s12 m3">
-          <div class="card">
+          <div class="card hoverable">
             <div class="card-image">
               <img
                 src="https://www.iexperts.com.br/wp-content/uploads/2020/01/banner-placa-960x630.png"
@@ -115,7 +109,7 @@
         </div>
 
         <div class="col s12 m3">
-          <div class="card">
+          <div class="card hoverable">
             <div class="card-image">
               <img
                 src="https://www.movilzona.es/app/uploads/2020/12/cambio-bateria-xiaomi.jpg"
@@ -137,7 +131,7 @@
 
       <div class="row">
         <div class="col s12 m3">
-          <div class="card">
+          <div class="card hoverable">
             <div class="card-image">
               <img
                 src="http://universotecnico.com/wp-content/uploads/2020/07/Como-consertar-trocar-o-conector-de-carga-do-iPhone-6S-universotecnico.com-Eagle-team.png"
@@ -157,7 +151,7 @@
         </div>
 
         <div class="col s12 m3">
-          <div class="card">
+          <div class="card hoverable">
             <div class="card-image">
               <img
                 src="https://sempreupdate.com.br/wp-content/uploads/2020/03/1435435-1.jpg"
@@ -175,7 +169,7 @@
         </div>
 
         <div class="col s12 m3">
-          <div class="card">
+          <div class="card hoverable">
             <div class="card-image">
               <img src="https://img.olx.com.br/images/79/791094829957220.jpg" />
             </div>
@@ -192,39 +186,66 @@
       </div>
     </section>
 
-    <div id="orcamento" class="orcamento">
-
-      <div class="info">
-        <h3>Homecell - Assistência Técnica</h3>
-        <a class="blue-text darken-4" href="">(27) 98811-6981</a>
-        <a class="blue-text darken-4" href="">@homecellsd</a>
-
-        <p>Rua Maria Eleonora Pereira, 714, Galeria Brusque - Loja 21, Jardim da Penha</p>
-      </div>
-      <div class="row">
-        <div class="col s12 m6 right">
-          <div class="card blue darken-4">
-            <div class="card-content white-text">
-              <span class="card-title">Orçamento</span>
-              <input type="text" nome="nome">
-              <label for="nome">Digite seu nome completo</label>
-
-              <input type="tel" name="telefone" id="telefone">
-              <label for="telefone">digite seu telefone</label>
-
-              <input type="text" nome="modelo">
-              <label for="modelo">Digite o modelo do dispositivo</label>
-
-              <textarea name="defeito" id="defeito" cols="30" rows="10"></textarea>
-              <label for="defeito">Descreva o defeito do dispositivo</label>
+    <section id="contatos" class=" grey darken-4">
+      <h3 class="center white-text">Contatos</h3>
+      <div class="container blue darken-4">
+        <div class="row">
+          <form class="col s9">
+            <div class="row">
+              <div class="input-field col s6">
+                <input
+                  id="first_name"
+                  type="text"
+                  class="validate"
+                />
+                <label for="first_name">Primeiro nome</label>
+              </div>
+              <div class="input-field col s6">
+                <input id="last_name" type="text" class="validate" />
+                <label for="last_name">Ultimo nome</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input
+                  id="telefone"
+                  type="tel"
+                  class="validate"
+                />
+                <label for="telefone">Telefone</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="email" type="email" class="validate" />
+                <label for="email">E-mail</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="descrição" type="text" class="validate" />
+                <label for="descrição">Digite o modelo e defeito</label>
+              </div>
             </div>
             <div class="card-action">
               <a href="#">Limpar</a>
               <a href="#">Enviar</a>
             </div>
-          </div>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
-    </div>
+      <footer class="center">
+        <h4 class="white-text center">Rua Maria Eleonora Pereira, 714, Galeria Brusque Loja 21, Jardim da penha, Vitória-ES</h4>
+        <a class="blue-text darken-4" href="#">(27) 98811-6981</a>
+        <a class="blue-text darken-4" href="#">@homecellsd</a>
+      </footer>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="/script.js"></script>
   </body>
 </html>

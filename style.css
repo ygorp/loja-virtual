@@ -14,20 +14,17 @@ html {
   scroll-behavior: smooth;
 }
 
-.nav-wrapper {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.brand-logo {
+#logo {
   font-family: 'Rubik Marker Hatch', cursive;
   font-weight: 500;
+  font-size: 45px;
 }
 
-.menu-link {
+#menu-link {
   font-family: 'Rubik Marker Hatch', cursive;
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 25px;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 .loja-virtual {
@@ -88,60 +85,42 @@ html {
   margin: 40px;
 }
 
-.orcamento {
-  background: rgba(0, 0, 0, 0.8);
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 4px );
-  -webkit-backdrop-filter: blur( 4px );
-  border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+#contatos {
+ padding: 40px;
 }
 
-.info {
-  margin-left: 5%;
+#contatos .container {
+  padding: 30px;
+  border-radius: 8px;
+  margin-bottom: 30px;
 }
 
-.info h3 {
-  color: #ffffff;
-  font-family: 'Rubik Marker Hatch', cursive;
-  font-size: 35px;
-  font-weight: 500;
+.card-action {
+  margin-bottom: 30px;
 }
 
-.info a {
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  margin-top: 30px;
+.card-action a {
+ padding: 5px;
+ border-radius: 4px;
+ border: none;
+ background-color: #ffffff;
+ color: #2b261e;
+ font-family: 'Roboto', sans-serif;
+ font-size: 15px;
+ margin-left: 20px; 
+ cursor: pointer;
 }
 
-.info a:hover {
+footer h4 {
+  margin-bottom: 20px;
+}
+
+footer a {
   background-color: #ffffff;
-  border-radius: 8px;
-  padding: 10px;
-}
-
-.info p {
-  color: #ffffff;
-  margin-top: 80px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-}
-
-.orcamento .card {
-  border-radius: 8px;
-  margin-top: 20px;
-  width: 450px;
-}
-
-.rodape {
   padding: 15px;
-  color: #2b261e;
-  font-size: 25px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-weight: 500;
+  border-radius: 5px;
+  margin-left: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
 }
