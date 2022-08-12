@@ -150,3 +150,7 @@ footer a {
   right: 20px;
   transition: .4s all;
 }
+
+.transparente a {
+  background: transparent;
+}
