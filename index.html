@@ -39,37 +39,33 @@
     <link rel="manifest" href="/site.webmanifest" />
   </head>
   <body>
-    <nav class="nav-wraper blue darken-4">
+    <nav id="topo" class="nav-wraper blue darken-4">
       <div class="container">
         <a id="logo" href="#" class="brand-logo">Homecell</a>
         <a id="logo" href="#" class="sidenav-trigger" data-target="mobile-links">
           <i class="material-icons">menu</i>
         </a>
         <ul class="right hide-on-med-and-down">
-          <li><a id="menu-link" href="#">Serviços</a></li>
-          <li><a id="menu-link" href="#">Contatos</a></li>
+          <li><a id="menu-link" href="#servicos">Serviços</a></li>
+          <li><a id="menu-link" href="#contatos">Contatos</a></li>
         </ul>
       </div>
     </nav>
 
     <ul class="sidenav" id="mobile-links">
-      <li><a href="#">Serviços</a></li>
-      <li><a href="#">Contatos</a></li>
+      <li><a class="blue darken-4 white-text" href="#servicos">Serviços</a></li>
+      <li><a class="blue darken-4 white-text" href="#contatos">Contatos</a></li>
     </ul>
 
     <main class="principal">
       <div class="loja-virtual">
         <h1>Visite nossa loja virtual</h1>
 
-        <a
-          href="https://shopee.com.br/ygor721804?v=bd3&smtt=0.0.3"
-          target="blank"
-          ><button>Acesse a loja</button></a
-        >
+        <a href="#"><button id="btn-loja">Acesse a loja</button></a>
       </div>
     </main>
 
-    <section class="servico center">
+    <section id="servicos" class="servico center">
       <h2 class="center blue-text darken-4">Serviços</h2>
       <div class="row">
         <div class="col s12 m3">
@@ -240,6 +236,14 @@
         <h4 class="white-text center">Rua Maria Eleonora Pereira, 714, Galeria Brusque Loja 21, Jardim da penha, Vitória-ES</h4>
         <a class="blue-text darken-4" href="#">(27) 98811-6981</a>
         <a class="blue-text darken-4" href="#">@homecellsd</a>
+
+        <div data-scroll="suave" data-anima="scroll">
+          <a href="#topo">
+            <div class="topo">
+              <img src="/img/circle-up.svg" alt="Seta para cima">
+            </div>
+          </a>
+        </div>
       </footer>
     </section>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
