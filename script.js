@@ -24,8 +24,8 @@ const urlTelefone = 'https://api.whatsapp.com/send?phone=5527988116981'
 const btnTelefone = document.querySelector('#btn-telefone')
 
 function whatsapp() {
-  const novaJanela = window.open(urlTelefone, '_blank')
-  novaJanela.focus()
+  const novaJanela2 = window.open(urlTelefone, '_blank')
+  novaJanela2.focus()
 }
 
 btnTelefone.addEventListener('click', () => {
@@ -37,8 +37,8 @@ const urlInsta = 'https://www.instagram.com/homecellsd/'
 const btnInsta = document.querySelector('#btn-insta')
 
 function btnInsta() {
-  const novaJanela = window.open(urlInsta, '_blank')
-  novaJanela.focus()
+  const novaJanela3 = window.open(urlInsta, '_blank')
+  novaJanela3.focus()
 }
 
 btnInsta.addEventListener('click', () => {
