@@ -18,33 +18,6 @@ btnLoja.addEventListener('click', () => {
   lojaVirtual(url)
 })
 
-//contatos
-
-const urlTelefone = 'https://api.whatsapp.com/send?phone=5527988116981'
-const btnTelefone = document.querySelector('#btn-telefone')
-
-function whatsapp() {
-  const novaJanela2 = window.open(urlTelefone, '_blank')
-  novaJanela2.focus()
-}
-
-btnTelefone.addEventListener('click', () => {
-  whatsapp(urlTelefone)
-})
-
-//instagram
-const urlInsta = 'https://www.instagram.com/homecellsd/'
-const btnInsta = document.querySelector('#btn-insta')
-
-function btnInsta() {
-  const novaJanela3 = window.open(urlInsta, '_blank')
-  novaJanela3.focus()
-}
-
-btnInsta.addEventListener('click', () => {
-  btnInsta(urlInsta)
-})
-
 //função scrool para inicio da tela
 
 const scrollAnima = document.querySelector('[data-anima="scroll"]');
