@@ -29,7 +29,6 @@ header, .navbar {
   background: #373B44;
   background: -webkit-linear-gradient(to right, #4286f4, #373B44);
   background: linear-gradient(to right, #4286f4, #373B44);
-
 }
 
 #nav-container {
@@ -143,4 +142,30 @@ header, .navbar {
 
 .card-body {
   text-align: center;
+}
+
+/*Loja virtual*/
+
+#apply-area {
+  height: 500px;
+}
+
+#apply-area .container-fluid, #apply-area .row {
+  height: 100%;
+}
+
+#apply-area .apply-box {
+  text-align: center;
+  padding: 70px 50px;
+}
+
+.main-btn {
+  background-color: #4286f4;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  width: 200px;
+  height: 60px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: none;
 }
