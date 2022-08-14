@@ -83,15 +83,6 @@ header, .navbar {
   text-align: center;
 }
 
-.main-title::after {
-  content: "";
-  border-top: 2px solid #333;
-  width: 15%;
-  position: absolute;
-  top: 109%;
-  left: 42.5%;
-}
-
 .about-title {
   font-size: 17px;
   color: #444;
