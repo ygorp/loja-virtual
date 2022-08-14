@@ -135,3 +135,9 @@ header, .navbar {
 .service-box:hover > i, .service-box:hover > h4 {
   color: #65DAF9;
 }
+
+/*Produtos*/
+
+.card-body {
+  text-align: center;
+}
