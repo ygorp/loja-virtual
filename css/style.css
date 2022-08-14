@@ -63,7 +63,7 @@ header, .navbar {
 }
 
 #mainSlider .carousel-inner, #mainSlider .carousel-item {
-  height: 90vh;
+  height: 100vh;
 }
 
 .carousel-indicators .active {
