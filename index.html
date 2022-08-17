@@ -17,44 +17,18 @@
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
-    <header>
-      <div id="nav-container" class="container">
-        <nav class="navbar navbar-expand-lg">
-          <a href="#" class="navbar-brand">
-            <img id="logo" src="/img/logo.png" alt="logo homecell" /> Homecell
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbar-links"
-            aria-controls="navbar-links"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggle-icon"></span>
-          </button>
-
-          <div
-            class="collapse navbar-collapse justify-content-end"
-            id="navbar-links"
-          >
-            <div class="navbar-nav">
-              <a href="" class="nav-item nav-link" id="home-menu">Home</a>
-              <a href="" class="nav-item nav-link" id="about-menu"
-                >Quem somos</a
-              >
-              <a href="" class="nav-item nav-link" id="service-menu"
-                >Serviços</a
-              >
-              <a href="" class="nav-item nav-link" id="acessorios-menu"
-                >Produtos</a
-              >
-              <a href="" class="nav-item nav-link" id="contact-menu">Contato</a>
-            </div>
-          </div>
-        </nav>
-      </div>
+    <header id="header">
+      <a href="" id="logo">Homecell</a>
+      <a href=""><img src="/node_modules/bootstrap-icons/icons/list.svg" alt=""></a>
+      <nav id="nav">
+        <ul id="menu">
+          <li><a href="">Home</a></li>
+          <li><a href="">Sobre nós</a></li>
+          <li><a href="">Serviços</a></li>
+          <li><a href="">Produtos</a></li>
+          <li><a href="">Contatos</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
@@ -125,7 +99,7 @@
           <div class="container">
             <div class="row">
               <div class="col-12">
-                <h3 class="main-title">Sobre a Homecell</h3>
+                <h3 class="main-title">Sobre nós</h3>
               </div>
               <div class="col-md-6">
                 <img
@@ -142,28 +116,6 @@
                 <p class="about-text">Nossos serviços seguem um alto padrão de qualidade</p>
                 <p class="about-text">Trabalhamos com as melhores peças do mercado</p>
                 <p class="about-text">Trabalhamos com os melhores softwares do mercado</p>
-                <p class="about-text">Veja outros diferenciais:</p>
-                <ul id="about-list">
-                  <li>
-                    <i class="fas fa-check"></i>Lorem ipsum dolor sit amet
-                    consectetur adipisicing elit
-                  </li>
-                  <li>
-                    <i class="fas fa-check"></i>Lorem ipsum dolor sit amet
-                    consectetur adipisicing elit
-                  </li>
-                  <li>
-                    <i class="fas fa-check"></i>Lorem ipsum dolor sit amet
-                    consectetur adipisicing elit
-                  </li>
-                  <li>
-                    <i class="fas fa-check"></i>Lorem ipsum dolor sit amet
-                    consectetur adipisicing elit
-                  </li>
-                  <li>
-                    <i class="fas fa-check"></i>Lorem ipsum dolor sit amet
-                    consectetur adipisicing elit
-                  </li>
                 </ul>
               </div>
             </div>
@@ -318,6 +270,11 @@
         </div>
       </div>
     </main>
+
+    <!--rodapé-->
+    <footer>
+      
+    </footer>
     <script
       src="https://kit.fontawesome.com/6215fc3775.js"
       crossorigin="anonymous"

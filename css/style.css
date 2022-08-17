@@ -1,13 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Rubik+Marker+Hatch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Rubik+Marker+Hatch&display=swap?family=Libre+Baskerville&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-}
-
-body {
-  font-family: 'Roboto', sans-serif;
 }
 
 .row {
@@ -23,39 +19,45 @@ p, li {
   font-size: 14px;
 }
 
-/*Barra de Navegação*/
-
-header, .navbar {
-  background: #373B44;
-  background: -webkit-linear-gradient(to right, #4286f4, #373B44);
-  background: linear-gradient(to right, #4286f4, #373B44);
+a {
+  color: #120907;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
 }
 
-#nav-container {
-  padding-top: 0;
-  padding-bottom: 0;
+/*Barra de Navegação*/
+
+#header {
+  background-color: #4286f4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 #logo {
-  width: 75px;
-  height: 95px;
-}
-
-.navbar-brand {
-  padding: 0;
+  font-size: 3rem;
+  font-family: 'Libre Baskerville', sans-serif;
+  font-weight: bold;
   color: #FFFFFF;
 }
 
-.navbar-brand:hover {
-  color: #FFFFFF;
+#menu {
+  display: flex;
+  list-style: none;
+  padding: 20px;
+  gap: 1.5rem;
+  box-sizing: border-box;
 }
 
-#navbar-links a {
-  color: #FFFFFF;
+#menu a {
+  font-size: 1.5rem;
+  transition: .5s;
 }
 
-.navbar-expand-lg .navbar-nav .nav-link {
-  padding: 1rem .8rem;
+#menu a:hover {
+  background: #FFFFFF;
+  padding: 5px;
+  border-radius: 10px 20px 10px 20px;
 }
 
 /*slider*/
@@ -79,10 +81,11 @@ header, .navbar {
 }
 
 .main-title {
-  color: #444;
+  color: #4286f4;
   margin: 0 0 65px 0;
   font-size: 40px;
   text-align: center;
+  font-family: 'Libre Baskerville', sans-serif;
 }
 
 .about-title {
@@ -90,6 +93,7 @@ header, .navbar {
   color: #444;
   text-transform: uppercase;
   font-weight: bold;
+  font-family: 'Roboto', sans-serif;
 }
 
 .about-text {
@@ -100,20 +104,6 @@ header, .navbar {
   height: 350px;
   width: 900px;
   border-radius: 8px;
-}
-
-#about-list {
-  list-style: none;
-  padding-left: 0;
-}
-
-#about-list li {
-  line-height: 30px;
-}
-
-#about-list i {
-  color: #192440;
-  margin-right: 15px;
 }
 
 /*Serviços*/
