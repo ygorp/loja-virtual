@@ -424,7 +424,7 @@ a {
 
 @media (max-width: 425px) {
   #mainSlider {
-    margin-top: 1px;
+    margin-top: 50px;
   }
   #about-area .main-title {
     margin-top: 10px;
