@@ -6,6 +6,10 @@
   text-decoration: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .row {
   margin: 0;
 }
@@ -148,7 +152,7 @@ a {
 .main-title {
   color: #4286f4;
   margin: 0 0 65px 0;
-  font-size: 40px;
+  font-size: 70px;
   text-align: center;
   font-family: 'Libre Baskerville', sans-serif;
 }
@@ -159,14 +163,17 @@ a {
   text-transform: uppercase;
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
+  margin-top: 80px;
+  margin-bottom: 45px;
 }
 
 .about-text {
   font-size: 19px;
+  margin-bottom: 45px;
 }
 
 #about-img {
-  height: 350px;
+  height: 500px;
   width: 900px;
   border-radius: 8px;
 }

@@ -16,3 +16,13 @@ function toggleMenu(event) {
 
 btnMobile.addEventListener('click', toggleMenu);
 btnMobile.addEventListener('touchstart', toggleMenu);
+
+/*Botão de orçamento */
+
+const callBtn = document.getElementById('call-btn');
+
+function siteOrcamento() {
+  window.location.href = "https://api.whatsapp.com/send?phone=5527988116981";
+}
+
+callBtn.addEventListener('click', siteOrcamento);
