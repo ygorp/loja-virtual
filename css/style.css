@@ -83,6 +83,12 @@ a {
     visibility: visible;
     overflow-y: auto;
   }
+  #menu a {
+    display: block;
+    padding: 1rem 0;
+    margin: 0 1rem;
+    border-bottom: 2px solid #FFFFFF;
+  }
   #btn-mobile {
     display: flex;
     padding: .5rem 1rem;
@@ -92,11 +98,12 @@ a {
     cursor: pointer;
     gap: .5rem;
   }
-  #hamburguer {
+  #hamburger {
+    display: block;
     border-top: 2px solid;
     width: 20px;
   }
-  #hamburguer::after, #hamburguer::before {
+  #hamburger::after, #hamburger::before {
     content: '';
     display: block;
     width: 20px;
@@ -106,13 +113,13 @@ a {
     transition: .3s;
     position: relative;
   }
-  #nav.active #hamburguer {
+  #nav.active #hamburger {
     border-top-color: transparent;
   }
-  #nav.active #hamburguer::before {
+  #nav.active #hamburger::before {
     transform: rotate(135deg);
   }
-  #nav.active #hamburguer::after {
+  #nav.active #hamburger::after {
     transform: rotate(-135deg);
     top: -7px;
   }
