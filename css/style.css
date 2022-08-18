@@ -368,3 +368,50 @@ a {
 #copy-area .container p {
   margin-bottom: 0;
 }
+
+/*responsive*/
+
+@media (max-width: 768px) {
+  #menu a {
+    font-size: 1rem;
+  }
+  .container {
+    padding: 20px 0;
+  }
+  #mainSlider .carousel-inner, #mainSlider .carousel-item {
+    height: auto;
+  }
+
+  #about-area #about-text {
+    margin-top: 40px;
+  }
+
+  .card-title {
+    font-size: 14px;
+  }
+  
+  #news-area p {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #email-input {
+    width: 70%;
+  }
+  #call-area {
+    margin-top: 30px;
+  }
+  #call-area .container {
+    padding: 30px;
+  }
+  #call-area p, #call-area #call-btn {
+    font-size: 14px;
+  }
+  .contact-box p {
+    font-size: 12px;
+  }
+  .contact-title {
+    font-size: 12px;
+    margin-right: .3rem;
+  }
+}
