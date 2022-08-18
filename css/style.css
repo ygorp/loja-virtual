@@ -415,3 +415,26 @@ a {
     margin-right: .3rem;
   }
 }
+
+@media (max-width: 425px) {
+  #mainSlider {
+    margin-top: 1px;
+  }
+  #about-area .main-title {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  #service-area .service-box {
+    margin-bottom: 10px;
+  }
+
+  #produtos-area .main-title {
+    margin-bottom: 25px;
+  }
+
+  #produtos-area .col-md-3 {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
